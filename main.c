@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "shell.h"
 
 /**
@@ -41,4 +42,16 @@ int main(int ac, char **av)
 	read_history(info);
 	hsh(info, av);
 	return (EXIT_SUCCESS);
+=======
+#include <stdio.h>
+/**
+ *main - Entry point
+ *
+ * Return: always 0
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+>>>>>>> 863f4826dbc4a3e1027a3b3d7607e959d4e86738
 }
